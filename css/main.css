@@ -7,18 +7,24 @@ p, h1, h2, h3 {
 
 @media all and (max-width: 414px) {
   nav {
-    text-align: center;
     background-color: #000;
     color: #fff;
-    padding: 5vw 0;
+    padding: 1vw 0;
     text-transform: uppercase; }
     nav li {
+      position: relative;
+      left: 50vw;
       list-style: none;
-      display: inline;
-      margin: 2vw; }
+      display: block;
+      margin: 0 2vw; }
     nav li a {
       text-decoration: none;
       color: #fff; }
+    nav p {
+      font-size: 20vw;
+      margin: 2vw;
+      position: absolute;
+      left: 4vw; }
 
   .daily_news {
     text-align: center;
@@ -34,13 +40,16 @@ p, h1, h2, h3 {
     height: 65vw;
     width: 96.5vw; }
 
+  .remove_br_iphone {
+    display: none; }
+
   footer {
     text-align: center;
     background-color: #000;
     color: #fff;
     padding: 5vw 0;
     text-transform: uppercase; } }
-@media all and (max-width: 768px) and (min-width: 414px) {
+@media all and (max-width: 769px) and (min-width: 415px) {
   nav {
     text-align: center;
     background-color: #000;
@@ -48,12 +57,18 @@ p, h1, h2, h3 {
     padding: 5vw 0;
     text-transform: uppercase; }
     nav li {
+      position: relative;
+      left: 10vw;
       list-style: none;
       display: inline;
       margin: 2vw; }
     nav li a {
       text-decoration: none;
       color: #fff; }
+    nav p {
+      font-size: 8vw;
+      position: absolute;
+      left: 4vw; }
 
   .daily_news {
     text-align: center;
@@ -69,13 +84,16 @@ p, h1, h2, h3 {
     height: 65vw;
     width: 96.5vw; }
 
+  .remove_br_ipad {
+    display: none; }
+
   footer {
     text-align: center;
     background-color: #000;
     color: #fff;
     padding: 5vw 0;
     text-transform: uppercase; } }
-@media all and (min-width: 768px) {
+@media all and (min-width: 769px) {
   body {
     font-size: 1.5vw; }
 
@@ -87,12 +105,18 @@ p, h1, h2, h3 {
     font-size: 1.5vw;
     text-transform: uppercase; }
     nav li {
+      position: relative;
+      left: 21vw;
       list-style: none;
       display: inline;
       margin: 2vw; }
     nav li a {
       text-decoration: none;
       color: #fff; }
+    nav p {
+      font-size: 6vw;
+      position: absolute;
+      left: 4vw; }
 
   .daily_news {
     text-align: center;

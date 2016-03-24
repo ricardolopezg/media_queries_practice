@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Della+Respira);
+
+body {
+  font-family: 'Della Respira', serif;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+// iphone 6s plus
+@media all and (max-width: 414px) {
+nav {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 0;
+  text-transform: uppercase;
+    li {
+      list-style: none;  
+      display: inline;
+      margin: 2vw;      
+  } li a {
+      text-decoration: none;
+      color: #fff;
+  }
+}
+
+.daily_news {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article p {
+  margin: 0 2vw;
+  
+}
+
+.article h2 {
+  margin: 0 2vw;
+}
+
+.article img, .article iframe {
+  height: 65vw;
+  width: 96.5vw;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 0;
+  text-transform: uppercase;
+}
+
+
+} // end iphone 6s plus
+
+
+
+// ipad
+@media all and (max-width: 768px) and (min-width: 414px) {
+nav {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 0;
+  text-transform: uppercase;
+    li {
+      list-style: none;  
+      display: inline;
+      margin: 2vw;      
+  } li a {
+      text-decoration: none;
+      color: #fff;
+  }
+}
+
+.daily_news {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article p {
+  margin: 0 2vw;
+  
+}
+
+.article h2 {
+  margin: 0 2vw;
+}
+
+.article img, .article iframe {
+  height: 65vw;
+  width: 96.5vw;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 0;
+  text-transform: uppercase;
+}
+
+} // end ipad
+
+
+
+
+// desktop
+@media all and (min-width: 768px) {
+body {
+  font-size: 1.5vw;
+}
+
+nav {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 3vw 0;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+    li {
+      list-style: none;  
+      display: inline;
+      margin: 2vw;      
+  } li a {
+      text-decoration: none;
+      color: #fff;
+  }
+}
+
+.daily_news {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article {
+  width: 48%;
+  // display: inline-block;
+  float: left;
+}
+
+.article p {
+  margin: 0 2vw;
+  
+}
+
+.article h2 {
+  margin: 0 2vw;
+}
+
+.article img, .article iframe {
+  height: 30vw;
+  width: 46vw;
+  // margin: 0 vw;
+
+
+}
+
+hr, .remove_br_desktop {
+  display: none;
+}
+
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 0;
+  text-transform: uppercase;
+}
+} // end desktop
+
+
